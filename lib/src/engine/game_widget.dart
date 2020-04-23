@@ -77,7 +77,7 @@ class GameRenderBox extends RenderBox with WidgetsBindingObserver {
   void attach(PipelineOwner owner) {
     super.attach(owner);
     game.onAttach();
-
+    _scheduleTick();
     _bindLifecycleListener();
   }
 

@@ -27,7 +27,7 @@ class Player {
   }
 
   void update(double dt) {
-    // TODO: implement update
+    gameModel.player.angle += dt;
   }
 
 }

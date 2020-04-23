@@ -18,15 +18,12 @@ void main() async {
   WorldPosition.tileSize = GameProps.tileSize;
   final GameModel gameMap = createModel(tilemap, WorldPosition.tileSize);
 
-  debugPrint('$tilemap');
+//  debugPrint('$tilemap');
   debugPrint('$gameMap');
   runApp(MaterialApp(
     home: Scaffold(
       appBar: AppBar(title: Text('welcome to heaven')),
-      body: Container(
-        color: Colors.amber,
-        child: GameWidget(GameSetup(gameMap)),
-      ),
+      body: GameWidget(GameSetup(gameMap)),
     ),
   ));
 }

@@ -1,16 +1,10 @@
 # flutterapp01
 
-A new Flutter application.
+A simple flutter 2D game engine, boilerplate code.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This project is my learning project for game development in Flutter with DartLang.
 
-A few resources to get you started if this is your first Flutter project:
+![2020-04-23 18-32-22_Trim](https://user-images.githubusercontent.com/3184210/80104850-63404880-8595-11ea-9c14-e4752817dfd0.gif)
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
